@@ -1,0 +1,23 @@
+# Android build artifacts
+build/
+.gradle/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Local configuration
+local.properties
+*.keystore
+*.jks
+
+# IDE files
+.idea/
+*.iml
+.DS_Store
+
+# Gradle wrapper jar (only the script is needed, not the binary)
+gradle/wrapper/gradle-wrapper.jar
+
+# Generated code
+app/build/
